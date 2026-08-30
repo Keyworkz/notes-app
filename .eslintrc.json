@@ -1,0 +1,13 @@
+{
+  "extends": ["react-app"],
+  "globals": {
+    "jest": "readonly",
+    "describe": "readonly",
+    "test": "readonly",
+    "expect": "readonly",
+    "beforeEach": "readonly",
+    "afterEach": "readonly",
+    "beforeAll": "readonly",
+    "afterAll": "readonly"
+  }
+}

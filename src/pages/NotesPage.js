@@ -1,11 +1,12 @@
 import React from "react";
 import notes from "../assets/data";
+import ListItem from "../components/ListItem";
 
 const NotesPage = () => {
   return (
     <div>
       {notes.map((note) => (
-        <p key={note.id}>{note.body}</p>
+        <ListItem key={note.id} note={note} />
       ))}
     </div>
   );
